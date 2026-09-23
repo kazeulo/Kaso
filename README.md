@@ -6,7 +6,9 @@
 
 **Kaso** is a Natural Language Processing (NLP) framework designed for **Aspect-Based Sentiment & Intent Analysis (ABSA)** focused on detecting **Soft Complaints** (hedged, indirect dissatisfaction) and **Constructive Suggestions** in Hiligaynon code-switched customer reviews (Hiligaynon-Tagalog-English).
 
-Traditional sentiment analysis tools often miss soft complaints due to politenes, passive-aggressive, sarcasm,  hedging words (*medyo*, *kaso*, *galing*), and indirect phrasing. **Kaso** bridges this gap by extracting fine-grained aspect tuples coupled with pragmatic intent labels.
+Traditional sentiment analysis tools often miss soft complaints due to politenes, passive-aggressive, sarcasm,  hedging words (*medyo*, *kaso*, *galing*), and indirect phrasing. Paticularly in Iloilo or Hiligaynon context, this is especially amplified by cultural factor and inherent Ilonngo trait of *pagkamalambing* (gentleness) and *hiya* (shame).
+
+**Kaso** aims to bridge this gap by extracting fine-grained aspect tuples coupled with pragmatic intent labels.
 
 ---
 
