@@ -4,9 +4,11 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Framework: PyTorch / HuggingFace](https://img.shields.io/badge/Framework-HuggingFace_|_PyTorch-orange.svg)](https://huggingface.co/) --> 
 
-**Kaso** is a Natural Language Processing (NLP) framework designed for **Aspect-Based Sentiment & Intent Analysis (ABSA)** focused on detecting **Soft Complaints** (hedged, indirect dissatisfaction) and **Constructive Suggestions** in Hiligaynon code-switched customer reviews (Hiligaynon-Tagalog-English).
+Kaso is a Natural Language Processing (NLP) framework designed for Aspect-Based Sentiment and Intent Analysis (ABSA), with a focus on detecting Soft Complaints (hedged or indirectly expressed dissatisfaction) and Constructive Suggestions in Hiligaynon code-switched customer reviews (Hiligaynon-Tagalog-English).
 
-Traditional sentiment analysis tools often miss soft complaints due to politenes, passive-aggressive, sarcasm,  hedging words (*medyo*, *kaso*, *galing*), and indirect phrasing. **Kaso** bridges this gap by extracting fine-grained aspect tuples coupled with pragmatic intent labels.
+Traditional sentiment analysis approaches primarily focus on identifying overall positive, negative, or neutral sentiment. However, customer dissatisfaction is not always expressed through explicitly negative language. Reviews may contain hedging, mitigation, contrastive expressions, sarcasm, and indirect phrasing, making the underlying complaint difficult to identify through sentiment polarity alone. For example, a review such as "Okay man tani ang service, kaso medyo dugay lang" may express dissatisfaction with service time despite containing predominantly positive or neutral language.
+
+Kaso aims to address this gap by extracting fine-grained aspect tuples and assigning pragmatic intent labels, enabling the identification of what aspect of a service or product is being discussed and whether the review expresses a soft complaint, constructive suggestion, or other relevant intent.
 
 ---
 

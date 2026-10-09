@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+
+# Scraped review data (keep folders, ignore contents)
+data/raw/*
+!data/raw/.gitkeep
